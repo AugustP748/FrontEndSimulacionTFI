@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Simulación</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="container"> <!-- CONTAINER DE MAIN-->
+
+        <div class="row">
+            <div class="col">
+                <div class="container-titulo">
+                    <h1 class="titulo">Simulador</h1>
+                </div>
+            </div> <!--CIERRE COL 1 DE TITULO-->
+        </div> <!--CIERRE ROW 1 DE TITULO-->
+
+        <hr> <!-- SEPARADOR DE TITULO Y CONTENIDO-->
+
+        <div class="row"> <!-- ROW 2 DE CONTENIDO-->
+
+            <div class="col-sm-3"> <!-- COL 1 DE INPUTS (UNICA COL DEL ROW)-->
+                <div class="container"> <!-- CONTAINER DE INPUTS -->
+                    
+                    <div class="row">
+                        <div class="col">
+                            <input type="date">
+                        </div><!--CIERRE COL 1 DE FECHA-->
+                    </div> <!--CIERRE ROW 1 DE FECHA -->
+
+                    <hr>
+
+                    <div class="row"> <!--CIERRE ROW 2 DE NUEVA ATRACCIÓN -->
+                        
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox">
+                                <label for="atraccion">Nueva Atracción</label>
+                            </div> <!--CIERRE COL 1 DE LABEL -->
+                        </div> <!--CIERRE RPW 1 DE LABEL -->
+                        
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary">One</button>
+                                    <button type="button" class="btn btn-primary">Two</button>
+                                    <button type="button" class="btn btn-primary">Three</button>
+                                  </div>
+                            </div> <!--CIERRE COL 2 DE OPCIONES -->
+                        </div> <!--CIERRE ROW 2 DE OPCIONES -->
+                        
+                    </div> <!--CIERRE ROW 2 DE NUEVA ATRACCIÓN -->
+
+                    <hr>
+
+                    <div class="row"> <!--CIERRE ROW 2 DE NUEVO ESPECTACULO -->
+                        
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox">
+                                <label for="atraccion">Nuevo Espectáculo</label>
+                            </div> <!--CIERRE COL 1 DE LABEL -->
+                        </div> <!--CIERRE RPW 1 DE LABEL -->
+                        
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary">One</button>
+                                    <button type="button" class="btn btn-primary">Two</button>
+                                    <button type="button" class="btn btn-primary">Three</button>
+                                  </div>
+                            </div> <!--CIERRE COL 2 DE OPCIONES -->
+                        </div> <!--CIERRE ROW 2 DE OPCIONES -->
+                        
+                    </div> <!--CIERRE ROW 2 DE NUEVO ESPECTACULO  -->
+
+                    <hr>
+
+                    <div class="row"> <!-- ROW 3 DE CANTIDAD DE VISITANTES  -->
+                        <div class="col"> <!-- COL 1 DE CANTIDAD DE VISITANTES  -->
+                            <label for="atraccion">Cantidad de Visitantes</label>
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                              </div>
+                        </div> <!--CIERRE COL 1 DE CANTIDAD DE VISITANTES  -->
+                    </div> <!--CIERRE ROW 3 DE CANTIDAD DE VISITANTES  -->
+
+                    <hr>
+
+                    <div class="row"> <!-- ROW 4 DE PRECIO DE ENTRADAS -->
+                        <div class="col"> <!-- COL 1 DE PRECIO DE ENTRADAS  -->
+                            <label for="atraccion">Precio de entradas en oferta</label>
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                              </div>
+                        </div> <!--CIERRE COL 1 DE PRECIO DE ENTRADAS  -->
+                    </div> <!--CIERRE ROW 4 DE PRECIO DE ENTRADAS  -->
+
+                </div> <!--CIERRE CONTAINER DE INPUTS -->
+            </div> <!--CIERRE COL 1 DE INPUTS-->
+
+            <!-- <div class="col" ><div class="vertical-separator"></div></div> -->
+            
+            
+            <div class="col-sm-4" style="text-align: center;"> <!--COL 2 DE GRAFICA-->
+
+                <div class="row"> <!--ROW 1 DE ENTRADA EN OFERTA -->
+                    <div class="col" style="text-align: center;">
+                        <h4>Precio de la entrada en oferta</h4>
+                    </div>
+                </div> <!--CIERRE ROW 1 DE ENTRADA EN OFERTA -->
+
+                <div class="row"> <!--ROW 2 DE IMAGEN -->
+                    <div class="col">
+                        <div class="container">
+                            <img class="imagen-funcion" src="images/funcion.png" alt="función">
+                        </div>
+                    </div>
+                </div> <!--CIERRE ROW 2 DE IMAGEN -->
+
+                <div class="row"> <!-- ROW 3 DE CANTIDAD VISITANTES -->
+                    <div class="col" style="text-align: center;">
+                        <p>Cantidad de Visitantes</p>
+                    </div>
+                </div> <!--CIERRE ROW 3 DE CANTIDAD VISITANTES -->
+
+            </div> <!--CIERRE COL 2 DE GRAFICA-->
+            
+             <!--<div class="col"><div class="vertical-separator"></div></div> -->
+
+            <div class="col-sm-4"> <!-- COL 3 DE MAPA -->
+                <div class="row"> <!-- ROW 1 DE STAR WARS TITULO -->
+                    <div class="col" style="text-align: center;">
+                        <h3>Star Wars Galaxy's Edge</h3>
+                    </div> <!--CIERRE COL 1 DE STAR WARS TITULO --> 
+                </div> <!--CIERRE ROW 1 DE STAR WARS TITULO -->
+
+                <div class="row"> <!-- ROW 2 DE MAPA DE STAR WARS -->
+                    <div class="col">
+                        <div class="container" style="text-align: center;">
+                            <img class="imagen-mapa" src="images/mapa.png" alt="">
+                        </div>
+                    </div> <!--CIERRE COL 1 DE MAPA DE STAR WARS  --> 
+                </div> <!--CIERRE ROW 2 DE MAPA DE STAR WARS  -->
+
+            </div> <!--CIERRE COL 3 DE MAPA -->
+        
+        </div> <!--CIERRE ROW 2 DE CONTENIDO-->
+
+        <hr> <!-- SEPARADOR DE CONTENIDO Y FOOTER -->
+
+    </div> <!-- CIERRE DE CONTAINER DE MAIN-->
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <div class="row">
+        <div class="col">
+            <span class="lead" style="padding-left: 20px;">&copySIMULACI&Oacute;N 2023 - Parque de Atracciones: Hollywood Studio [Star wars Galaxy's Edge]</span>
+        </div>
+       
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

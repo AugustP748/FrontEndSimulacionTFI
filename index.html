@@ -37,77 +37,80 @@
                     
                     <div class="row">
                         <div class="col">
-                            <input type="date">
-                        </div><!--CIERRE COL 1 DE FECHA-->
-                    </div> <!--CIERRE ROW 1 DE FECHA -->
+                            <h5>Fecha y temporada</h5>
+                        </div>
+                    </div>
 
-                    <hr>
-
-                    <div class="row"> <!--CIERRE ROW 2 DE NUEVA ATRACCIÓN -->
-                        
-                        <div class="row">
-                            <div class="col">
-                                <input type="checkbox">
-                                <label for="atraccion">Nueva Atracción</label>
-                            </div> <!--CIERRE COL 1 DE LABEL -->
-                        </div> <!--CIERRE RPW 1 DE LABEL -->
-                        
-                        <div class="row">
-                            <div class="col">
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-primary">One</button>
-                                    <button type="button" class="btn btn-primary">Two</button>
-                                    <button type="button" class="btn btn-primary">Three</button>
-                                  </div>
-                            </div> <!--CIERRE COL 2 DE OPCIONES -->
-                        </div> <!--CIERRE ROW 2 DE OPCIONES -->
-                        
-                    </div> <!--CIERRE ROW 2 DE NUEVA ATRACCIÓN -->
-
-                    <hr>
-
-                    <div class="row"> <!--CIERRE ROW 2 DE NUEVO ESPECTACULO -->
-                        
-                        <div class="row">
-                            <div class="col">
-                                <input type="checkbox">
-                                <label for="atraccion">Nuevo Espectáculo</label>
-                            </div> <!--CIERRE COL 1 DE LABEL -->
-                        </div> <!--CIERRE RPW 1 DE LABEL -->
-                        
-                        <div class="row">
-                            <div class="col">
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-primary">One</button>
-                                    <button type="button" class="btn btn-primary">Two</button>
-                                    <button type="button" class="btn btn-primary">Three</button>
-                                  </div>
-                            </div> <!--CIERRE COL 2 DE OPCIONES -->
-                        </div> <!--CIERRE ROW 2 DE OPCIONES -->
-                        
-                    </div> <!--CIERRE ROW 2 DE NUEVO ESPECTACULO  -->
-
-                    <hr>
-
-                    <div class="row"> <!-- ROW 3 DE CANTIDAD DE VISITANTES  -->
-                        <div class="col"> <!-- COL 1 DE CANTIDAD DE VISITANTES  -->
-                            <label for="atraccion">Cantidad de Visitantes</label>
-                            <div class="slidecontainer">
-                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <div class="row">
+                        <div class="col">
+                            <p>Temporada</p>
+                        </div>
+                        <div class="col">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-primary">Alta</button>
+                                <button type="button" class="btn btn-primary">Baja</button>
                               </div>
-                        </div> <!--CIERRE COL 1 DE CANTIDAD DE VISITANTES  -->
-                    </div> <!--CIERRE ROW 3 DE CANTIDAD DE VISITANTES  -->
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <p>Fecha</p>
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" id="fecha" name="fecha">
+                        </div>
+                    </div>
 
-                    <hr>
+                    <hr> <!-- SEPARADOR DE FECHA/TEMPORADA Y CANTIDAD DE VISITANTES -->
 
-                    <div class="row"> <!-- ROW 4 DE PRECIO DE ENTRADAS -->
-                        <div class="col"> <!-- COL 1 DE PRECIO DE ENTRADAS  -->
-                            <label for="atraccion">Precio de entradas en oferta</label>
-                            <div class="slidecontainer">
-                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                              </div>
-                        </div> <!--CIERRE COL 1 DE PRECIO DE ENTRADAS  -->
-                    </div> <!--CIERRE ROW 4 DE PRECIO DE ENTRADAS  -->
+                    <div class="row">
+                        <div class="col">
+                            <h5>Cantidad de Visitantes</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Visitantes</p>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="" name="showVisitants" readonly>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <input type="range" class="form-control-range" id="slider" name="slider" min="0" max="100" step="1" value="50" list="slider-values">
+                            <datalist id="slider-values">
+                                <option value="0">
+                                <option value="100">
+                            </datalist>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <h6>Maximo Visitantes por Nivel</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Nivel 1</p>
+                            <p>Nivel 2</p>
+                            <p>Nivel 3</p>
+                            <p>Nivel 4</p>
+
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="" name="level1">
+                            <input type="text" class="form-control" id="" name="level2">
+                            <input type="text" class="form-control" id="" name="level3">
+                            <input type="text" class="form-control" id="" name="level4">
+                        </div>
+                    </div>
+
 
                 </div> <!--CIERRE CONTAINER DE INPUTS -->
             </div> <!--CIERRE COL 1 DE INPUTS-->

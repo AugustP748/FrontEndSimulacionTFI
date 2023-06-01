@@ -3,8 +3,13 @@
     padding-top: 10px;
 }
 
+.container-principal{
+
+    text-align: center;
+}
+
 .titulo{
-    background-color: yellow;
+    background-color: lightgray;
 }
 
 .imagen-funcion{
@@ -14,7 +19,7 @@
 
 .imagen-mapa{
     height: 380px;
-    width: auto;
+    width: 400px;
 }
 
 .vertical-separator{
